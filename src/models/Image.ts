@@ -14,3 +14,5 @@ export default class Image{
     @JoinColumn({name: 'orphanage_id'})
     orphanage: Orphanage;
 }
+
+module.exports = Image;
