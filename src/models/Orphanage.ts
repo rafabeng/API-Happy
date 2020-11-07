@@ -35,5 +35,3 @@ export default class Orphanage{
     images: Image[];
 
 }
-
-module.exports = Orphanage;
