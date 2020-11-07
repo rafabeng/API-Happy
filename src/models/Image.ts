@@ -2,7 +2,7 @@ import {Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn} from 'typ
 
 import Orphanage from './Orphanage';
 
-@Entity('images')
+@Entity("images")
 export default class Image{
     @PrimaryGeneratedColumn('increment')
     id: number;
